@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./styles/colors.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    background-color: $background-default;
+    color: $foreground-primary;
+    font-family: Montserrat, 'sans-serif';
+}

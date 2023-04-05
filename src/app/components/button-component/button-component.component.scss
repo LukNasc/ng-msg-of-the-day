@@ -1,0 +1,20 @@
+@import "../../../styles/colors.scss";
+.button {
+  position: absolute;
+  bottom: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 576px;
+  height: 81px;
+  border: none;
+  border-radius: 5px;
+  font-family: Montserrat;
+  background-color: $background-button;
+  color: $foreground-secondary;
+  font-size: 36px;
+  text-transform: uppercase;
+
+  &:active {
+    opacity: 0.9;
+  }
+}
